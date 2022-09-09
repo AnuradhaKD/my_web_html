@@ -5,58 +5,266 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "image/png" href = "./img/1.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skins/color1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <title>AkD Developers</title>
+    <title>AkD Developers | Python | UI \ UX | Web</title>
 
 </head>
 <body>
-
-    <div class="main-container">
-
-        <div class="aside">
-
-            <div class="logo">
-                <a href="#">~ <span>A</span>kD ~</a>
-            </div>
-
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-
-            <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
-            </ul>
-
+    
+    <!-- header section starts  -->
+    
+    <header class="header">
+    
+        <div class="user">
+            <img src="./img/pp.jpeg" alt="profile picture">
+            <h3>Anuradha k dissanayake</h3>
+            <p>python developer</p>
         </div>
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <div id="menu-btn" class="fas fa-bars"></div>
+    
+    <!-- theme toggler  -->
+    
+    <div id="theme-toggler" class="fas fa-moon"></div>
 
-        <div class="main-content">
-
-            <section class="home section">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">Hello, my name is <span class="name">Anuradha K Dissanayake</span></h3>
-                            <h3 class="my-profession">I am a <span class="typing">Python Developer</span></h3>
-                            <p>I am a Python Developer with extensive programming expernce for over 4 years. My expertise is to create and develop android apps using python, UI\UX Designing, Web Animation Creation, CSS Animation Creation, Graphic Design and many more...</p>
-                            <a href="#contact" class="btn hire-me">Hire Me</a>
-                        </div>
-                        <div class="home-img padd-15">
-                                <img src="./img/pp.png" alt="">
-                            </div>
-                    </div>
+    <!-- home section starts  -->
+    
+    <section class="home" id="home">
+    
+        <div class="content">
+            <h3>Anuradha k dissanayake</h3>
+            <p>i am python developer and UI\UX Designer</p>
+            <a href="#" class="btn">download CV</a>
+        </div>
+    
+        <div class="share">
+            <a href="https://www.facebook.com/anuradha.dissanayake.589/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/AnuradhaKD54" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/anuradha.kd/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/anuradha-kumara-dissanayake-19970504/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/AnuradhaKD" class="fab fa-github"></a>
+        </div>
+    
+    </section>
+    
+    <!-- home section ends -->
+    
+    <!-- about section starts  -->
+    
+    <section class="about" id="about">
+    
+        <h1 class="heading"> <span>about</span> me </h1>
+    
+        <div class="row">
+    
+            <div class="box-container">
+                <div class="box">
+                    <h3>4+</h3>
+                    <p>years of experience</p>
                 </div>
-            </section>
-
+                <div class="box">
+                    <h3>5+</h3>
+                    <p>satisfied clients</p>
+                </div>
+                <div class="box">
+                    <h3>10+</h3>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="box">
+                    <h3>1+</h3>
+                    <p>companies joined</p>
+                </div>
+            </div>
+    
+            <div class="content">
+                <h3>my name is <span>anuradha kumara dissanayake</span></h3>
+                <p>I am Computer Science undergraduate student at Eastern University Sri Lanka. I mainly do python kivy desktop and android app development and UI\UX Designer. And also HTML CSS Animation and HTML5 advertisements Designer.</p>
+                <a href="#" class="btn">contact me</a>
+            </div>
+    
         </div>
-
-    </div>
-
+    
+        <div class="row">
+    
+            <div class="progress">
+                <h3> HTML5 Ad design <span>70%</span> </h3>
+                <div class="bar bar-1-1"><span></span></div>
+                <h3> graphic design <span>65%</span> </h3>
+                <div class="bar bar-1-2"><span></span></div>
+                <h3> UI/UX design <span>83%</span> </h3>
+                <div class="bar bar-1-3"><span></span></div>
+            </div>
+    
+            <div class="progress">
+                <h3> Python <span>92%</span> </h3>
+                <div class="bar bar-2-1"><span></span></div>
+                <h3> HTML <span>98%</span> </h3>
+                <div class="bar bar-2-2"><span></span></div>
+                <h3> CSS <span>85%</span> </h3>
+                <div class="bar bar-2-3"><span></span></div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- about section ends -->
+    
+    <!-- services section starts  -->
+    
+    <section class="services" id="services">
+    
+        <h1 class="heading"> my <span>services</span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas delectus, laboriosam nulla dolore in.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>graphic design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas delectus, laboriosam nulla dolore in.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h3>responsive design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas delectus, laboriosam nulla dolore in.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>digital marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas delectus, laboriosam nulla dolore in.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-search-dollar"></i>
+                <h3>SEO marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas delectus, laboriosam nulla dolore in.</p>
+            </div>
+    
+            <div class="box">
+                <i class="fab fa-wordpress"></i>
+                <h3>wordpress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas delectus, laboriosam nulla dolore in.</p>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- services section ends -->
+    
+    <!-- portfolio section starts  -->
+    
+    <section class="portfolio" id="portfolio">
+    
+        <h1 class="heading"> my <span>portfolio</span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="image/img-1.jpg" alt="">
+                <div class="content">
+                    <h3>project 01</h3>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="image/img-2.jpg" alt="">
+                <div class="content">
+                    <h3>project 02</h3>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="image/img-3.jpg" alt="">
+                <div class="content">
+                    <h3>project 03</h3>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="image/img-4.jpg" alt="">
+                <div class="content">
+                    <h3>project 04</h3>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="image/img-5.jpg" alt="">
+                <div class="content">
+                    <h3>project 05</h3>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="image/img-6.jpg" alt="">
+                <div class="content">
+                    <h3>project 06</h3>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- portfolio section ends -->
+    
+    <!-- contact section starts -->
+    
+    <section class="contact" id="contact">
+    
+        <h1 class="heading"> <span>contact</span> me </h1>
+    
+        <form action="">
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="text" placeholder="subject" class="box">
+            <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    
+    </section>
+    
+    <!-- contact section ends -->
+    
+    <div class="credits"> AkD | <span>AkD Developers</span> | &#169 all rights reserved | 2022</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- custom js file link  -->
     <script src="js/script.js"></script>
-</body>
+    
+    </body>
 </html>
