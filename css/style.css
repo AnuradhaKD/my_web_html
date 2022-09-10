@@ -431,6 +431,11 @@ section{
     opacity: 1;
 }
 
+h5{
+    font-size: 1.8rem;
+    color: green;
+}
+
 .contact form{
     margin:1rem auto;
     max-width: 70rem;
