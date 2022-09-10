@@ -94,7 +94,7 @@
             <div class="content">
                 <h3>my name is <span>anuradha kumara dissanayake</span></h3>
                 <p>I am Computer Science undergraduate student at Eastern University Sri Lanka. I mainly do python kivy desktop and android app development and UI\UX Designer. And also HTML CSS Animation and HTML5 advertisements Designer.</p>
-                <a href="#" class="btn">contact me</a>
+                <a href="#contact" class="btn">contact me</a>
             </div>
     
         </div>
@@ -237,12 +237,13 @@
     
         <h1 class="heading"> <span>contact</span> me </h1>
     
-        <form action="">
-            <input type="text" placeholder="your name" class="box">
-            <input type="email" placeholder="your email" class="box">
-            <input type="text" placeholder="subject" class="box">
-            <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+        <form action="https://formspree.io/f/mwkzvykd" method="POST">
+            <input name="name" type="text" id="name" placeholder="your name" class="box" required>
+            <input name="email" type="email" id="email" placeholder="your email" class="box" required>
+            <input name="sub" type="text" id="sub" placeholder="subject" class="box" required>
+            <textarea name="msg" class="box" placeholder="your message" id="msg" cols="30" rows="10" required></textarea>
+            <button type="submit" class="btn">submit</button>
+            <button type="reset" class="btn">clear</button>
         </form>
     
     </section>
@@ -252,18 +253,8 @@
     <div class="credits"> AkD | <span>AkD Developers</span> | &#169 all rights reserved | 2022</div>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!-- custom js file link  -->
+    <!-- <script src=" https://smtpjs.com/v3/smtp.js"></script> -->
     <script src="js/script.js"></script>
     
     </body>
