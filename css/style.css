@@ -61,6 +61,11 @@ section{
     box-shadow: var(--box-shadow);
 }
 
+.newbtn{
+    border: none;
+    background-color: transparent;
+}
+
 .btn:hover{
     box-shadow: var(--box-shadow-inset);
     color:var(--green);
